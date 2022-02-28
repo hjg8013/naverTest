@@ -5,11 +5,31 @@
 <html>
 <head>
 	<title>Home</title>
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
 </head>
 <body>
 	<div>
-		<div>
-			
+		<!-- Slider main container -->
+		<div class="swiper">
+		  <!-- Additional required wrapper -->
+		  <div class="swiper-wrapper">
+		    <!-- Slides -->
+		    <div class="swiper-slide">Slide 1</div>
+		    <div class="swiper-slide">Slide 2</div>
+		    <div class="swiper-slide">Slide 3</div>
+		    ...
+		  </div>
+		  <!-- If we need pagination -->
+		  <div class="swiper-pagination"></div>
+		
+		  <!-- If we need navigation buttons -->
+		  <div class="swiper-button-prev"></div>
+		  <div class="swiper-button-next"></div>
+		
+		  <!-- If we need scrollbar -->
+		  <div class="swiper-scrollbar"></div>
 		</div>
 	</div>
 <h1>
@@ -17,5 +37,8 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="./resources/js/swiper.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
