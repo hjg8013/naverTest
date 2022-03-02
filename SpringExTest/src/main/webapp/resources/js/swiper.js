@@ -25,8 +25,12 @@ $(document).ready(function(){
 //	})
 
     var swiper = new Swiper(".Swiper", {
+      
+      // 자동높이 사용여부 : 사용하지 않을시 기본값은 false
+      autoHeight : true,
       slidesPerView: 1,
       spaceBetween: 30,
+      // 슬라이드 반복
       loop: true,
       pagination: {
         el: ".swiper-pagination",
