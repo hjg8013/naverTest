@@ -9,9 +9,10 @@
 <body>
 	<div>
 		<div>
-			<form action="write" method="post">
+			<form action="/board/write" method="post">
 				<input type="text" name="title" id="title">
-				
+				<textarea name="content" id="summernote"></textarea>
+				<input type="button" >
 			</form>
 		</div>
 	</div>
