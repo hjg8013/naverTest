@@ -17,99 +17,14 @@
 		  <div class="swiper-wrapper">
 		    <!-- Slides -->
 		    <div class="swiper-slide">
-		    	Slide 1
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 2</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 2</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 3</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 4</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<!-- 여기까지 -->
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 5</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 7</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<div>Slide 1</div>
-		    	<a href="#">12</a>
+		    	<div>회원가입</div>
+		    	<div>로그인</div>
+		    	<div>아이디찾기</div>
+		    	<div>비밀번호찾기</div>
+		    	<div>글쓰기</div>
+		    	<div>글목록</div>
+		    	<div>글수정</div>
+		    	<div>글삭제</div>
 		    </div>
 		    <div class="swiper-slide">Slide 2</div>
 		    <div class="swiper-slide">Slide 3</div>

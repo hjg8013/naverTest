@@ -8,13 +8,10 @@
 </head>
 <body>
 	<div>
-		<div>
-			<form action="/board/write" method="post">
-				<input type="text" name="title" id="title">
-				<textarea name="content" id="summernote"></textarea>
-				<input type="button" value="작성">
-			</form>
-		</div>
+		<h1>아이디 찾기 결과</h1>
+	</div>
+	<div>
+			<input type="text" value="${ids}">
 	</div>
 </body>
 </html>
