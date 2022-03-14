@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -23,6 +24,14 @@ public class BoardController {
 		//System.out.println("tablelist" + bservice.list(bto));
 		
 		return "/board/write";
+	}
+	
+	@PostMapping("write")
+	public String writePost(BoardDTO bdto) {
+		
+		bservice.write(bdto);
+		System.out.println(bdto);
+		return "redirect:/board/board";
 	}
 	
 }
