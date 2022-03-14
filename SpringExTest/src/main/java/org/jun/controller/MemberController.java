@@ -35,7 +35,7 @@ public class MemberController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)  // 웹브라우저를 분석해주는 역할
 	public String login() {
 		logger.info("login 실행됨."); // console 역할
-		return "catdream/login";
+		return "/member/login";
 	}
 	
 	//로그인 성공
@@ -62,7 +62,7 @@ public class MemberController {
 	public String logout(HttpSession session) {
 	   logger.info("get-logout 실행됨."); // console 역할
 	   session.invalidate();
-	   return "redirect:/catdream";
+	   return "redirect:/test";
 	}
 	//아이디 중복 체크
 	@ResponseBody
@@ -79,7 +79,7 @@ public class MemberController {
 		logger.info("get-member 실행됨."); // console 역할
 		//logger.info("mservice.getId()를 실행함."+mservice.getId()); //아이디의 값을 잘 가져온다
 
-		return "catdream/member";
+		return "member/member";
 	}
 	//회원가입이 완료가되었다면
 	@RequestMapping(value = "/member", method = RequestMethod.POST)  // 웹브라우저를 분석해주는 역할	
@@ -91,7 +91,7 @@ public class MemberController {
 		try {
 			if(result == 1) {
 				//입력된 아이디가 존재한다면 -> 다시 회원가입 페이지로 돌아가기
-				return "catdream/member";
+				return "member/member";
 			}else if(result == 0) {
 				//service.register(vo); 존재하지 않는다면 -> register??
 			}
@@ -105,7 +105,7 @@ public class MemberController {
 		//}
 		mservice.insert(mdto);			
 
-		return "redirect:/catdream";
+		return "redirect:/test";
 	}
 	   
 	//이메일 인증
@@ -162,7 +162,7 @@ public class MemberController {
     	logger.info("result : "+result);
     	model.addAttribute("idResult",result);
     	
-    	return "catdream/infoSearch";	    	
+    	return "member/infoSearch";	    	
     	
     }
     //아이디 찾기 버튼클릭
@@ -176,7 +176,7 @@ public class MemberController {
     	model.addAttribute("ids",mservice.idSearch(mdto));
     	logger.info("idSearch 실행됨 id=."+ids);
     	
-    	return "catdream/idSearchShow";
+    	return "member/idSearchShow";
     }
 
     
@@ -185,7 +185,7 @@ public class MemberController {
     public String idInput() {
     	logger.info("idInput 비밀번호찾기 실행");
     	
-    	return "catdream/idInput";
+    	return "member/idInput";
     }
 
     //비밀번호 이메일입력창 띄우기
@@ -201,11 +201,11 @@ public class MemberController {
     	model.addAttribute("idResult",result);
     	
     	if(result == 1) {
-    		return "catdream/infoSearch";	    		
+    		return "member/infoSearch";	    		
     	}
     	else {
     		//아이디를 입력하라는 창을 안뛰워준다
-    		return "catdream/idInput";
+    		return "member/idInput";
     	}
     }
     
@@ -217,7 +217,7 @@ public class MemberController {
     	logger.info("비밀번호의 아이디 이름 이메일 확인?"+mservice.pwSearch(mdto));
     	model.addAttribute("id",mdto.getId());
     	
-    	return "catdream/passwordReset";
+    	return "member/passwordReset";
     }
     
 	 //비밀번호 변경
@@ -229,6 +229,6 @@ public class MemberController {
     	logger.info("바뀌는 비밀번호는?"+mdto);
     	mservice.updatePassword(mdto);
     	
-    	return "/catdream/index";
+    	return "/member/index";
     }
 }

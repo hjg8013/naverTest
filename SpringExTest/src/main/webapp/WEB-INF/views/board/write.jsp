@@ -10,6 +10,8 @@
 	<div>
 		<div>
 			<form action="/board/write" method="post">
+				<input type="hidden" name="writer" value="${login.name}">
+				<input type="hidden" name="memberId" value="${login.id}">
 				<input type="text" name="title" id="title">
 				<textarea name="content" id="summernote"></textarea>
 				<input type="button" value="작성">

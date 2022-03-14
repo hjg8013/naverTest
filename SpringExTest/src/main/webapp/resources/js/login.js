@@ -46,7 +46,7 @@ function loginProcess(){
         		idbool = true;
         		alert("로그인이 성공했습니다");
         		//로그인 성공시 이동하는 홈페이지
-        		window.location.href = "/catdream";
+        		window.location.href = "/test";
         	}else if(data == 0 ){
         		idbool = false;
         		alert("로그인이 실패했습니다");
