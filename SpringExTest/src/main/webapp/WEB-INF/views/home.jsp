@@ -7,7 +7,6 @@
 	<title>Home</title>
 		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
-
 </head>
 <body>
 	<div>
@@ -23,6 +22,8 @@
 		    	<div>비밀번호찾기</div>
 		    	<div>글쓰기</div>
 		    	<div>글목록</div>
+				<div>글상세</div>
+				<div>댓글</div>
 		    	<div>글수정</div>
 		    	<div>글삭제</div>
 		    </div>

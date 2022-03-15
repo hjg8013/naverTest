@@ -19,7 +19,7 @@
 
 	<c:choose>
 		<c:when test="${idResult eq 0}">
-			<form action="/idSearch" method="post">
+			<form action="/test/idSearch" method="post">
 			<div>
 				<h2>아이디 찾기</h1>
 			</div>
@@ -45,7 +45,7 @@
 		</c:when>
 		
 		<c:when test="${idResult eq 1}">
-			<form action="/passwordReset" method="post">
+			<form action="/test/passwordReset" method="post">
 				<input type="hidden" name="id" class="inputText1" id="userId" value="${id}">
 				<div>
 					<h2>비밀번호 찾기</h1>
