@@ -16,7 +16,7 @@
 		-->
 		<!-- mtsql처럼 결과를 보여준다 -->
 		<property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
-		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://127.0.0.1:3306/springtest?serverTimezone=Asia/Seoul"></property>
+		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Seoul"></property>
 		
 		<property name="username" value="root"></property>
 		<property name="password" value="1234"></property> 

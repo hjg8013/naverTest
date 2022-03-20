@@ -33,7 +33,7 @@ public class BoardController {
 		
 		bservice.write(bdto);
 		System.out.println(bdto);
-		return "redirect:/board/board";
+		return "redirect:/board/boardlist";
 	}
 	
 	@GetMapping("boardlist")

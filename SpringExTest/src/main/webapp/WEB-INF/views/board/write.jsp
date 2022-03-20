@@ -9,12 +9,12 @@
 <body>
 	<div>
 		<div>
-			<form action="/board/write" method="post">
+			<form action="/test/board/write" method="post">
 				<input type="hidden" name="writer" value="${login.name}">
 				<input type="hidden" name="memberId" value="${login.id}">
 				<input type="text" name="title" id="title">
 				<textarea name="content" id="summernote"></textarea>
-				<input type="button" value="작성">
+				<input type="submit" value="작성">
 			</form>
 		</div>
 	</div>
