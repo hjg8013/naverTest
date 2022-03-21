@@ -18,7 +18,7 @@
         <a href="#">
             <h2 class="memberTitle"></h2>
         </a>
-            <form action="test/member" method="post" onsubmit="return boolarrcheck();">
+            <form action="/member" method="post" onsubmit="return boolarrcheck();">
             
             <ul>
              	<li class="memberBox0">

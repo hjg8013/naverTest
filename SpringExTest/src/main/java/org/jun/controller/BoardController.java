@@ -44,7 +44,11 @@ public class BoardController {
 		model.addAttribute("pageMaker", new PageDTO(cri, bservice.getTotalCount(cri)));
 		return "/board/boardlist";
 	}
-	
+	@GetMapping("boardDetail")
+	public String detail(BoardDTO bdto,Model model) {
+		model.addAttribute("detail", bservice.detail(bdto));
+		return "/board/boardDetail";
+	}
 	
 	
 }

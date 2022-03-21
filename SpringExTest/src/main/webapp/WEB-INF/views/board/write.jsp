@@ -9,7 +9,7 @@
 <body>
 	<div>
 		<div>
-			<form action="/test/board/write" method="post">
+			<form action="/board/write" method="post">
 				<input type="hidden" name="writer" value="${login.name}">
 				<input type="hidden" name="memberId" value="${login.id}">
 				<input type="text" name="title" id="title">

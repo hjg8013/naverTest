@@ -5,7 +5,7 @@
 <mapper namespace="org.jun.mapper.MemberMapper">
 	<!-- 하기전에 입력을 안한 값이있으면 자동으로 넣어줘야한다 -->
 	<insert id="insert">
-		insert into member 
+		insert into member(id,password,name,birth,gender,email,phone,jobrank)
 		values(#{id},#{password},#{name},#{birth},#{gender},#{email},#{phone},'고객');
 	</insert>
 	

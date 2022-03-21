@@ -22,10 +22,11 @@
 		    	<div>비밀번호찾기</div>
 		    	<div>글쓰기</div>
 		    	<div>글목록</div>
-				<div>글상세</div>
-				<div>댓글</div>
-		    	<div>글수정</div>
-		    	<div>글삭제</div>
+				<div>글상세 X</div>
+				<div>댓글 X</div>
+		    	<div>글수정 X</div>
+		    	<div>글삭제 X</div>
+		    	<div></div>
 		    </div>
 		    <div class="swiper-slide">Slide 2</div>
 		    <div class="swiper-slide">Slide 3</div>

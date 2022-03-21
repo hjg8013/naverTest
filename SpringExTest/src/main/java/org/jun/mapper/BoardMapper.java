@@ -12,4 +12,8 @@ public interface BoardMapper {
 	public ArrayList<BoardDTO> list(Criteria cri);
 	
 	public int getTotalCount(Criteria cri);
+	
+	public BoardDTO detail(BoardDTO bdto);
+	
+	public void cntupdate(BoardDTO board);
 }

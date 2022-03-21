@@ -28,5 +28,10 @@ public class BoardServiceImpl implements BoardService{
 		return bmapper.getTotalCount(cri);
 	}
 	
+	public BoardDTO detail(BoardDTO bdto) {
+		bmapper.cntupdate(bdto);
+		return bmapper.detail(bdto);
+	}
+	
 	
 }

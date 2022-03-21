@@ -11,4 +11,7 @@ public interface BoardService {
 	public ArrayList<BoardDTO> list(Criteria cri);
 	
 	public int getTotalCount(Criteria cri);
+	
+	public BoardDTO detail(BoardDTO bdto);
+	
 }

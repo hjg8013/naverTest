@@ -62,7 +62,7 @@ public class MemberController {
 	public String logout(HttpSession session) {
 	   logger.info("get-logout 실행됨."); // console 역할
 	   session.invalidate();
-	   return "redirect:/test";
+	   return "redirect:/";
 	}
 	//아이디 중복 체크
 	@ResponseBody
@@ -105,7 +105,7 @@ public class MemberController {
 		//}
 		mservice.insert(mdto);			
 
-		return "redirect:/test";
+		return "redirect:/";
 	}
 	   
 	//이메일 인증
