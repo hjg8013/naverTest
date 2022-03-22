@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <title>list</title>
 	<link rel="icon" href="/resources/img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="/resources/css/boardlist.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="/resources/js/board.js"></script>
 </head>
@@ -28,7 +29,7 @@
 					<td class="title"><a href="/board/boardDetail?bno=${board.bno}">${board.title}</a></td>
 					<td class="user">${board.writer}(${board.memberId})</td>
 					<td class="date">${board.regdate}</td>
-					<td class="check">${board.cnt}</td>
+					<td class="check">${board.count}</td>
 				</tr>
 			</c:forEach>
 		</tbody>

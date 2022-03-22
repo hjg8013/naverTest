@@ -4,10 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>글쓰기</title>
+<link rel="stylesheet" href="/resources/css/write.css">
 </head>
 <body>
-	<div>
+	<div id="wrap">
+		<div class="titleIn">
+			<h1 class="title">글쓰기</h1>	
+		</div>
 		<div>
 			<form action="/board/write" method="post">
 				<input type="hidden" name="writer" value="${login.name}">

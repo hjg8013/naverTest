@@ -79,8 +79,8 @@
 	select * from board
 	where bno=#{bno}
 </select>
-<update id="cntupdate">
-	update board set cnt=cnt+1 where bno=#{bno}
+<update id="countupdate">
+	update board set count=count+1 where bno=#{bno}
 </update>
 	
 </mapper>

@@ -7,7 +7,7 @@ public class BoardDTO {
 		private String content;		//내용
 		private String writer;		//작성자
 		private String regdate;		//작성날짜
-		private int cnt;			//조회수
+		private int count;			//조회수
 		private String memberId;	//작성자 아이디
 
 		public int getBno() {
@@ -40,11 +40,11 @@ public class BoardDTO {
 		public void setRegdate(String regdate) {
 			this.regdate = regdate;
 		}
-		public int getCnt() {
-			return cnt;
+		public int getCount() {
+			return count;
 		}
-		public void setCnt(int cnt) {
-			this.cnt = cnt;
+		public void setCount(int count) {
+			this.count = count;
 		}
 
 		public String getMemberId() {
@@ -56,7 +56,7 @@ public class BoardDTO {
 		@Override
 		public String toString() {
 			return "BoardDTO [bno=" + bno + ", title=" + title + ", content=" + content + ", writer=" + writer
-					+ ", regdate=" + regdate + ", cnt=" + cnt + ", memberId=" + memberId + "]";
+					+ ", regdate=" + regdate + ", count=" + count + ", memberId=" + memberId + "]";
 		}
 		
 

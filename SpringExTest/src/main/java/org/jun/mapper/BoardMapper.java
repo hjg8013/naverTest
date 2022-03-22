@@ -15,5 +15,5 @@ public interface BoardMapper {
 	
 	public BoardDTO detail(BoardDTO bdto);
 	
-	public void cntupdate(BoardDTO board);
+	public void countupdate(BoardDTO board);
 }
